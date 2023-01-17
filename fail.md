@@ -1,0 +1,20 @@
+https://dash.deno.com/projects/blog-sqlite/logs
+
+```
+TypeError: Deno.openSync is not a function
+    at js_open (https://deno.land/x/sqlite@v3.7.0/build/vfs.js:29:24)
+    at <anonymous> (wasm://wasm/00274a8a:1:3702)
+    at <anonymous> (wasm://wasm/00274a8a:1:142867)
+    at <anonymous> (wasm://wasm/00274a8a:1:138770)
+    at <anonymous> (wasm://wasm/00274a8a:1:144940)
+    at <anonymous> (wasm://wasm/00274a8a:1:4589)
+    at <anonymous> (wasm://wasm/00274a8a:1:594290)
+    at https://deno.land/x/sqlite@v3.7.0/src/db.ts:72:67
+    at setStr (https://deno.land/x/sqlite@v3.7.0/src/wasm.ts:13:24)
+    at new DB (https://deno.land/x/sqlite@v3.7.0/src/db.ts:72:24)
+```
+
+請參考 -- https://github.com/denoland/deploy_feedback/issues/136
+
+Deno Deploy 不支援 opensync，所以 fail !
+
