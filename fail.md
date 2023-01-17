@@ -18,3 +18,7 @@ TypeError: Deno.openSync is not a function
 
 Deno Deploy 不支援 opensync，所以 fail !
 
+然後有人提出了解決方法，但要修改程式
+
+* https://github.com/ayame113/mock-file/blob/main/example/main.ts
+
