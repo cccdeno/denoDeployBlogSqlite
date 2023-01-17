@@ -25,4 +25,7 @@ Deno Deploy 不支援 opensync，所以 fail !
 不過比較正統的解決方法，可能是採用雲端資料庫，像是 Supabase 的 Postgresql, FaunaDB, DynamoDB 或 Firebase
 
 * https://deno.com/deploy/docs/tutorial-postgres
+ 
+Supabase 的免費方案額度還不錯
 
+* https://supabase.com/pricing
